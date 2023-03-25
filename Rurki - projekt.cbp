@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Rurki - projekt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/Rurki - projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Rurki - projekt" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+		</Linker>
+		<Unit filename="functions.h" />
+		<Unit filename="gaussianquadrature.cpp" />
+		<Unit filename="gaussianquadrature.h" />
+		<Unit filename="linearequationssolver.cpp" />
+		<Unit filename="linearequationssolver.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="matrixrow.cpp" />
+		<Unit filename="matrixrow.h" />
+		<Unit filename="mes.cpp" />
+		<Unit filename="mes.h" />
+		<Unit filename="pbPlots.cpp" />
+		<Unit filename="pbPlots.hpp" />
+		<Unit filename="sections.h" />
+		<Unit filename="supportLib.cpp" />
+		<Unit filename="supportLib.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1674751999 source:c:\programowanie\rurki - projekt\main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	"mes.h"
+	"pbPlots.hpp"
+	"supportLib.hpp"
+
+1674330426 source:c:\programowanie\rurki - projekt\gaussianquadrature.cpp
+	"gaussianquadrature.h"
+	<cmath>
+
+1674245071 c:\programowanie\rurki - projekt\gaussianquadrature.h
+	<vector>
+	"functions.h"
+
+1674216631 source:c:\programowanie\rurki - projekt\matrixrow.cpp
+	"matrixrow.h"
+
+1674215953 c:\programowanie\rurki - projekt\matrixrow.h
+	<vector>
+	<initializer_list>
+
+1674751311 source:c:\programowanie\rurki - projekt\linearequationssolver.cpp
+	"linearequationssolver.h"
+
+1674206783 c:\programowanie\rurki - projekt\linearequationssolver.h
+	"matrixrow.h"
+
+1674751610 c:\programowanie\rurki - projekt\functions.h
+	<cmath>
+	<vector>
+	<iostream>
+
+1674751952 c:\programowanie\rurki - projekt\mes.h
+	<cmath>
+	<vector>
+	"functions.h"
+	"linearequationssolver.h"
+	"gaussianquadrature.h"
+	"sections.h"
+
+1674751921 source:c:\programowanie\rurki - projekt\mes.cpp
+	"mes.h"
+	<iostream>
+
+1674329518 c:\programowanie\rurki - projekt\sections.h
+	<cmath>
+
+1674404579 c:\programowanie\rurki - projekt\pbplots.hpp
+	<cmath>
+	<cstring>
+	<vector>
+	<cwchar>
+
+1674404566 c:\programowanie\rurki - projekt\supportlib.hpp
+	<vector>
+	<string>
+	<iostream>
+	<fstream>
+
+1674405902 source:c:\programowanie\rurki - projekt\pbplots.cpp
+	"pbPlots.hpp"
+
+1674404495 source:c:\programowanie\rurki - projekt\supportlib.cpp
+	"supportLib.hpp"
+
